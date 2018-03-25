@@ -3,7 +3,7 @@ var app = express();
 
 // reply to request with "Hello World!"
 app.get('/', function (req, res) {
-  res.send('Marty is a cunt');
+  res.send('Hello World! (sent from my icunt which is actually a raspi running bigknob.js)');
 });
 
 //start a server on port 80 and log its start to our console
